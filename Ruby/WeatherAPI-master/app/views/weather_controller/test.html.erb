@@ -1,0 +1,36 @@
+<iv class="row">
+  <div class="col-md-6 col-md-offset-3">
+    <div class="well">
+      <h1>Forecast for
+        <%= @location %></h1>
+      <div class="row">
+        <div class="col-md-7">
+          <p>
+            <em>What's the weather like?</em>
+          </p>
+          <p>
+            Temperature is:
+            <%= @temp %>° F
+          </p>
+          <p>
+            Cloud Cover:
+            <%= @cloudiness %>%
+          </p>
+          <p>
+            Wind:
+            <%= @windiness %>
+            mph
+          </p>
+        </div>
+        <div class="col-md-5">
+          <p>
+            <%= @weather_words%>
+            <img src="http://openweathermap.org/img/w/<%= @weather_icon%>.png">
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+Add CommentCollapse 
