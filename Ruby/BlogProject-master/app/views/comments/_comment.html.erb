@@ -1,0 +1,7 @@
+<% @blog_post.comments.each do |comment| %>
+<h4>
+<h4><%= link_to comment.user.username, user_posts_path(name: comment.user.username) %></h4>
+  <p><%= time_ago_in_words(comment.created_at) %>
+    ago</p>
+  <p><%= comment.comment_entry %></p>
+<% end %>
