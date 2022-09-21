@@ -2,13 +2,13 @@
 //
 // Copyright 2020 Jim Skrentny
 // Posting or sharing this file is prohibited, including any changes/additions.
-// Used by permission, CS 354 Spring 2021, Deb Deppeler
+// Used by permission
 //
 ////////////////////////////////////////////////////////////////////////////////
 // Main File:        myHeap.c
 // This File:        myHeap.c
 // Other Files:      none
-// Semester:         CS 354 Fall 2021
+// Semester:         
 //
 // Author:           Drew Levin
 // Email:            dslevin2@wisc.edu
